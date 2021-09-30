@@ -1,3 +1,4 @@
+
 ### Remove falsy values from an array
 ```javascript
     const arr = [0, 'yellow', '', NaN, 1, true, undefined, 'orange', false]
