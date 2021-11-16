@@ -31,3 +31,10 @@ const duplicateValues = [...new Set(numOne)].filter(item => numTwo.includes(item
         	
 console.log(duplicateValues); // Output -> [2, 4, 6]
 ```
+
+### Find the Day of year
+```javascript
+const dayOfYear = (date) => {
+	Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);	
+}
+```
